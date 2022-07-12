@@ -18,8 +18,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var btn_secondHashTag: UIButton!
     @IBOutlet weak var btn_thirdHashTag: UIButton!
     @IBOutlet weak var btn_fourthHashTag: UIButton!
+    @IBOutlet weak var btn_fifthHashTag: UIButton!
     
-    var newWords = ["만반잘부": "만나서 반가워 잘 부탁해", "킹받네": "매우 화가난다", "꾸안꾸": "꾸민듯 안꾸민듯", "오운완": "오늘의 운동 완료"]
+    var newWords = ["만반잘부": "만나서 반가워 잘 부탁해", "킹받네": "매우 화가난다", "꾸안꾸": "꾸민듯 안꾸민듯", "오운완": "오늘의 운동 완료", "스불재":"스스로 불러온 재앙"]
     var userText = ""
     
     override func viewDidLoad() {
@@ -36,6 +37,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         buttonDesign(customButton: btn_secondHashTag)
         buttonDesign(customButton: btn_thirdHashTag)
         buttonDesign(customButton: btn_fourthHashTag)
+        buttonDesign(customButton: btn_fifthHashTag)
         
     }
 
@@ -92,7 +94,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         tf_search.text = btn_fourthHashTag.currentTitle
     }
     
-    
-    
+    @IBAction func btn_fifthHashTagClicked(_ sender: UIButton) {
+        tf_search.text = btn_fifthHashTag.currentTitle
+    }
 }
 

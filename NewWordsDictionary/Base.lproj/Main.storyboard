@@ -60,9 +60,12 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="sJT-CM-fRf">
                                 <rect key="frame" x="20" y="131" width="374" height="28.5"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jjR-6j-nG8">
-                                        <rect key="frame" x="0.0" y="0.0" width="87" height="28.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jjR-6j-nG8">
+                                        <rect key="frame" x="0.0" y="0.0" width="67.5" height="28.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="67.5" id="56D-dH-alF"/>
+                                        </constraints>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="만반잘부">
@@ -72,9 +75,12 @@
                                             <action selector="btn_firstHashTagClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sys-kB-BTl"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5i-us-wkh">
-                                        <rect key="frame" x="96" y="0.0" width="86.5" height="28.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="X5i-us-wkh">
+                                        <rect key="frame" x="76.5" y="0.0" width="67.5" height="28.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="67.5" id="RwO-Lf-rYD"/>
+                                        </constraints>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="꾸안꾸">
@@ -85,12 +91,11 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="CTw-mR-IAV">
-                                        <rect key="frame" x="191.5" y="0.0" width="87" height="28.5"/>
+                                        <rect key="frame" x="153" y="0.0" width="68" height="28.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="오운완" titleAlignment="center">
-                                            <backgroundConfiguration key="background" cornerRadius="5"/>
                                             <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -98,19 +103,38 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="8X1-eI-Ia9">
-                                        <rect key="frame" x="287.5" y="0.0" width="86.5" height="28.5"/>
+                                        <rect key="frame" x="230" y="0.0" width="67.5" height="28.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="킹받네" titleAlignment="center">
-                                            <backgroundConfiguration key="background" cornerRadius="5"/>
                                             <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="btn_fourthHashTagClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h3P-kZ-mVD"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="tYj-Eg-xTC">
+                                        <rect key="frame" x="306.5" y="0.0" width="67.5" height="28.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="67.5" id="YGD-eG-1JY"/>
+                                        </constraints>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="스불재" titleAlignment="center">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="btn_fifthHashTagClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="THV-4C-6dS"/>
+                                            <action selector="btn_fourthHashTagClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kbu-JA-BmF"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="tYj-Eg-xTC" firstAttribute="leading" secondItem="8X1-eI-Ia9" secondAttribute="trailing" constant="9" id="0Kg-8J-vR2"/>
+                                    <constraint firstItem="CTw-mR-IAV" firstAttribute="centerX" secondItem="sJT-CM-fRf" secondAttribute="centerX" id="NvD-Fn-yg7"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -138,6 +162,7 @@
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="btn_fifthHashTag" destination="tYj-Eg-xTC" id="VOe-HJ-RUO"/>
                         <outlet property="btn_firstHashTag" destination="jjR-6j-nG8" id="RHb-ks-pqV"/>
                         <outlet property="btn_fourthHashTag" destination="8X1-eI-Ia9" id="J0y-aC-eXa"/>
                         <outlet property="btn_search" destination="Ssw-Rb-jJS" id="u2R-i6-aGV"/>
